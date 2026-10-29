@@ -1,0 +1,24 @@
+
+\begin{table}[H]
+\centering
+\begin{tabular}{ l  l  l l l l l}
+\hline
+Size & isOrthoConvex & n & k & a & b & {T} \\
+\hline
+ogon_10.txt & True & 10 & 7 & 31 & 24 & 0.00 \\
+ogon_50.txt & True & 50 & 16 & 202 & 139 & 0.01 \\
+ogon_100.txt & True & 100 & 25 & 408 & 274 & 0.02 \\
+ogon_500.txt & True & 500 & 66 & 2101 & 1417 & 0.08 \\
+ogon_1000.txt & True & 1000 & 136 & 4237 & 2847 & 0.11 \\
+ogon_5000.txt & True & 5000 & 592 & 21417 & 14499 & 0.93 \\
+ogon_10000.txt & True & 10000 & 1195 & 43203 & 29424 & 1.69 \\
+ogon_50000.txt & True & 50000 & 5987 & 215752 & 146596 & 7.56 \\
+ogon_100000.txt & True & 100000 & 11837 & 390054 & 244238 & 45.00 \\
+ogon_500000.txt & True & 500000 & 58515 & 2045316 & 1329168 & 94.03 \\
+ogon_1000000.txt & True & 1000000 & 116499 & 4184008 & 2774808 & 167.01 \\
+
+\hline
+\end{tabular}
+\caption{Summary of computational data. Number of vertices ($n$), the orthogonal convexity status (isOrthoConvex), number of extreme vertices ($k$), size, number of vertices to check ($a$), number of vertices added/removed ($b$), and corresponding computation time ($T$ in milliseconds)}
+\label{table1}
+\end{table}

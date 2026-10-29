@@ -1,0 +1,28 @@
+[build-system]
+requires = ["maturin>=1.5,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "ogon-rs"
+version = "0.5.0"
+description = "PyO3 bindings for the orthogonal polygon generator"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "numpy>=1.23",
+]
+authors = [
+  { name = "Phong Thi Thu Huyen", email = "ptthuyen@math.ac.vn" },
+  { name = "Tran Anh Dung", email = "tadung.sdh231@hcmut.edu.vn" },
+  { name = "Phan Thanh An", email = "thanhan@hcmut.edu.vn" },
+]
+license = { text = "MIT" }
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Rust",
+  "Programming Language :: Python :: Implementation :: CPython",
+]
+
+[tool.maturin]
+module-name = "ogon_rs"
+features = ["pyo3/extension-module"]

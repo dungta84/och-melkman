@@ -1,0 +1,6 @@
+numpy
+opencv-python
+pandas
+scikit-learn
+matplotlib
+ultralytics   # only needed for scripts/detect_aircraft.py (YOLOv8x detection)

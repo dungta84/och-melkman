@@ -1,0 +1,15 @@
+[package]
+name = "ogon-rs"
+version = "0.5.0"
+edition = "2021"
+authors = ["Phong Thi Thu Huyen <ptthuyen@math.ac.vn>", "Tran Anh Dung <tadung.sdh231@hcmut.edu.vn>", "Phan Thanh An <thanhan@hcmut.edu.vn>"]
+description = "Orthogonal polygon generator with a PyO3 extension module"
+license = "MIT"
+
+[lib]
+name = "ogon_rs"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+rand = { version = "0.9", features = ["small_rng"] }
+pyo3 = { version = "0.21", features = ["extension-module", "abi3-py39"] }

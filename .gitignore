@@ -1,0 +1,10 @@
+work/
+data/MTARSI-fixed/
+weights/*.pt
+__pycache__/
+*.pyc
+target/
+*.so
+.venv/
+figures/
+outputs/

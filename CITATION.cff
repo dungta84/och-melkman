@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper."
+title: "och-melkman: O-Melkman algorithm for the orthogonal convex hull of an orthogonal polygon, with an aircraft-recognition pipeline"
+type: software
+license: MIT
+copyright: "Copyright (c) 2026 Institute of Mathematical and Computational Sciences (IMACS), HCMUT, VNU-HCM"
+authors:
+  - family-names: "Phong"
+    given-names: "Thi Thu Huyen"
+    email: "ptthuyen@math.ac.vn"
+    affiliation: "Institute of Mathematics, Vietnam Academy of Science and Technology (VAST), Hanoi, Vietnam"
+  - family-names: "Tran"
+    given-names: "Anh-Dung"
+    email: "tadung.sdh231@hcmut.edu.vn"
+    affiliation: "Faculty of Applied Science, Ho Chi Minh City University of Technology (HCMUT), VNU-HCM, Vietnam"
+  - family-names: "Phan"
+    given-names: "Thanh An"
+    email: "thanhan@hcmut.edu.vn"
+    affiliation: "Institute of Mathematical and Computational Sciences (IMACS), HCMUT, VNU-HCM, Vietnam"
+preferred-citation:
+  type: article
+  title: "Online construction of the orthogonal convex hull of an orthogonal polygon and an application in image analysis"
+  authors:
+    - family-names: "Phong"
+      given-names: "Thi Thu Huyen"
+    - family-names: "Tran"
+      given-names: "Anh-Dung"
+    - family-names: "Phan"
+      given-names: "Thanh An"
+  notes: "Manuscript ACAP-D-26-00396, under review. Journal reference to be added after publication."
